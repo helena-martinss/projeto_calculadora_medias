@@ -2,23 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Hind Madurai", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 body {
-    background-color: #e7e7e7;
-    padding-top: 100px;
+    background-color: #e6e2e2;
+    padding-top: 70px;
 }
 
 header {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+
 }
 
-header img {
-    height: 36px;
-    margin-right: 16px;
+header i {
+    margin-right: 8px;
+    font-size: 35px;
 }
 
 header h1 {
@@ -37,6 +38,7 @@ form {
     max-width: 640px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 56px;
 }
 
@@ -44,16 +46,17 @@ form input {
     font-size: 24px;
     background-color: #fff;
     border: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
+    border-radius: 8px;
     padding: 8px;
 }
 
 form button {
-    background-color: #009432;
+    background-color: #1aad3a;
     color: #fff;
     font-size: 24px;
-    font-weight: bold;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
     padding: 8px;
 }
@@ -82,17 +85,17 @@ table td img {
 }
 
 .resultado {
-    padding: 8px;
+    padding: 8px; 
     font-weight: bold;
     color: #fff;
     background-color: #000;
-    border-radius: 3px;
+    border-radius: 5px
 }
 
 .aprovado {
-    background-color: #009432;
+    background-color: #1aad3a;
 }
 
 .reprovado {
-    background-color: red;
+    background-color: rgb(238, 36, 36);
 }
